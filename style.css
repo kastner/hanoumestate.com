@@ -1,0 +1,41 @@
+body {
+  font: 12px/1.3em "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  color: #4E2721;
+  background: #431011 url('images/tanback2.png') repeat-x 0px 330px;
+}
+
+#page {
+  margin: 0 auto;
+  width: 969px;
+}
+
+h1 {
+  margin-bottom: 90px;
+  margin-right: -130px;
+  margin-left: -20px;
+  padding: 0;
+  float: left;
+}
+
+#images {
+  margin-top: 40px;
+  float: right;
+}
+
+#images img {
+  border: 15px solid #E1E1E1;
+}
+
+h2 { 
+  clear: both;
+}
+
+#info {
+  text-align: center;
+}
+
+#footer {
+  text-align: right;
+  margin-top: 70px;
+  padding-bottom: 10px;
+}
