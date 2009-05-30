@@ -1,22 +1,28 @@
 body {
   font: 12px/1.3em "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-  color: #4E2721;
-  background: #431011 url('images/back-swirl.png') repeat-x;
+  color: #4E2721;  
   padding: 0;
   margin: 0;
 }
 
-#page-wrap {
-  background: url('images/tanback2.png') repeat-x 0px 330px;
+#header {
+  background: #431011 url('images/back-swirl.png') repeat-x;
+  position: relative;
+  overflow: auto;
 }
 
-#page {
+#information {
+  background: #E3CB9F url('images/tanback2.png') repeat-x;
+  padding-top: 30px;
+  position: relative;
+}
+
+#information-inner, #header-inner {
   margin: 0 auto;
   width: 969px;
 }
 
 h1 {
-  margin-bottom: 90px;
   margin-right: -130px;
   margin-left: -20px;
   padding: 0;
@@ -24,8 +30,10 @@ h1 {
 }
 
 #images {
-  margin-top: 40px;
-  float: right;
+  position: absolute;
+  margin-top: -300px;
+  left: 510px;
+/*  float: right;*/
 }
 
 #images img {
@@ -34,6 +42,8 @@ h1 {
 
 h2 { 
   clear: both;
+  padding: 10px;
+  margin: 0;
 }
 
 #info {
