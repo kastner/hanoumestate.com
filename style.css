@@ -3,18 +3,16 @@ body {
   color: #4E2721;  
   padding: 0;
   margin: 0;
+  background: #E3CB9F;
 }
 
 #header {
   background: #431011 url('images/back-swirl.png') repeat-x;
-  position: relative;
-  overflow: auto;
 }
 
 #information {
   background: #E3CB9F url('images/tanback2.png') repeat-x;
   padding-top: 30px;
-  position: relative;
 }
 
 #information-inner, #header-inner {
@@ -30,10 +28,8 @@ h1 {
 }
 
 #images {
-  position: absolute;
   margin-top: -300px;
-  left: 510px;
-/*  float: right;*/
+  left: 420px;
 }
 
 #images img {
@@ -54,4 +50,25 @@ h2 {
   text-align: right;
   margin-top: 70px;
   padding-bottom: 10px;
+}
+
+
+#header:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#header {
+display: inline-block; /* IE 7 */
+}
+
+#header {
+display: block;
+}
+
+* html #header {
+height: 1px; /* IE < 7 */
 }
