@@ -1,7 +1,13 @@
 body {
   font: 12px/1.3em "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   color: #4E2721;
-  background: #431011 url('images/tanback2.png') repeat-x 0px 330px;
+  background: #431011 url('images/back-swirl.png') repeat-x;
+  padding: 0;
+  margin: 0;
+}
+
+#page-wrap {
+  background: url('images/tanback2.png') repeat-x 0px 330px;
 }
 
 #page {
